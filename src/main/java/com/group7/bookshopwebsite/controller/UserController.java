@@ -1,5 +1,6 @@
 package com.group7.bookshopwebsite.controller;
 
+<<<<<<< HEAD
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -72,4 +73,12 @@ public class UserController {
 		return "user/wishlist";
 	}
 
+=======
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Controller;
+@AllArgsConstructor
+@Controller
+public class UserController {
+
+>>>>>>> master
 }
